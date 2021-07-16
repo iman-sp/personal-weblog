@@ -1,0 +1,27 @@
+    /* this css file used for all page */
+
+    body {
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: IRANSance;
+        src: url('../font/IRANSansWeb.ttf');
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    a {
+        font-family: IRANSance;
+        color: #4B4B4B;
+    }
+
+    a {
+        text-decoration: none;
+    }
