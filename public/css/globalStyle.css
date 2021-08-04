@@ -20,8 +20,13 @@
     a {
         font-family: IRANSance;
         color: #4B4B4B;
+        direction: rtl;
     }
 
     a {
         text-decoration: none;
+    }
+
+    a:hover{
+        color: #0dcaf0;
     }
