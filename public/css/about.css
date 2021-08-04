@@ -1,0 +1,9 @@
+/* this css file used for aboutme page */
+#aboutmebox{
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    margin: 40px auto;
+    width: 70%;
+    padding: 15px;
+}
