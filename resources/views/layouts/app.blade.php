@@ -22,7 +22,8 @@
             <nav id="navbar">
                 <div>
                     <div>
-                        <a id="aboutme" class="white" href="{{ route('aboutme') }}">درباره من</a>
+                        <a  class="white nav-item" href="{{ route('index') }}">صفحه اصلی</a>
+                        <a  class="white nav-item" href="{{ route('aboutme') }}">درباره من</a>
 
                     </div>
                 </div>
