@@ -1,0 +1,157 @@
+
+.index-main{
+    width: 100%;
+    background: #F6F5F4;
+    /*height: 100px;*/
+    padding:73px 0;
+    transition: 200ms;
+}
+
+.posts-padding{
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.posts-padding:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.index-post:hover{
+    box-shadow: 0px 0px 15px #ccc;
+    transition: 200ms;
+}
+
+.index-main .posts{
+    background: white;
+    width: 1300px;
+    margin: 50px auto 0 auto;
+    box-shadow: 0px 0px 7px #ddd;
+}
+
+.index-post{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    overflow: hidden;
+     margin: 0 0 15px 13px;
+    padding-bottom: 15px;
+    display: inline-block;
+
+}
+
+#tag-name{
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    direction: rtl;
+    margin-bottom: 20px;
+}
+
+
+.index-post .index-line{
+    width: 60px;
+    background: #63D0DF;
+    height: 2px;
+    margin: auto;
+}
+
+.index-post .main-image span{
+    background: #019147;
+    color: white;
+    font-size: 13px;
+    padding: 3px 15px;
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+
+.index-post .main-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.index-post .title-post p{
+    color: #6b7074;
+    font-size: 15px;
+    text-align: center;
+    padding-top:15px;
+    margin: 0 auto 20px auto;
+    width: 85%;
+}
+
+.index-post .description p{
+    font-size: 12.5px;
+    color: #6b7074;
+    text-align: center;
+    width: 85%;
+    margin: 20px auto 0 auto;
+    word-break: break-word;
+}
+
+.index-post .author{
+    float: right;
+    color: #adb5bd;
+    font-size: 12px;
+}
+
+.index-post .info{
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+.index-post .info::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.index-post .author i{
+    /* background: url("../../images/account.png")no-repeat; */
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    float: right;
+    margin-left: 8px;
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .index-main .posts{
+        width: 97%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px ) {
+    .index-main .posts{
+        width: 94%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px ) {
+    .index-main .posts{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .index-main .posts{
+        width: 87%;
+    }
+
+    .index-post{
+        width: 95%;
+        margin: 0;
+    }
+
+
+
+
+}
